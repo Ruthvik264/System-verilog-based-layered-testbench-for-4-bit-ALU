@@ -9,7 +9,7 @@ class driver;
 
   task main();
     transaction trans;
-    repeat(100)
+    repeat(104)
       begin
         gen2driv.get(trans);
         vif.a       <= trans.a;
