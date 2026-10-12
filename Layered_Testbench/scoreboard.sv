@@ -19,7 +19,7 @@ class scoreboard;
     bit [4:0] temp;
     string    op_name;
 
-    repeat(100)
+    repeat(104)
       begin
         mon2scb.get(trans);
         cov.sample(trans);
